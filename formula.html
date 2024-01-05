@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Velocità Orbitali degli inner/outer ring di Giove,Saturno,Urano e Nettuno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .calculation {
+            margin-top: 20px;
+        }
+        .calculation h3 {
+            margin-bottom: 5px;
+        }
+        .calculation p {
+            margin-top: 0;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+<div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: center;">
+    <p style="font-style: italic; font-size: 8px;">La formula semplificata v = √(GM/r) potrebbe non essere completamente accurata a causa delle orbite ellittiche, delle influenze gravitazionali multiple, delle correzioni relativistiche, della deformazione del pianeta e delle interazioni tra gli oggetti nell'anello.</p>
+</div>
+    <div class="container">
+        <h1>Velocità Orbitali degli inner/outer rings di Giove,Saturno,Urano e Nettuno</h1>
+        
+<table>
+    <tr>
+        <th>Pianeta</th>
+        <th>Massa (kg)</th>
+        <th>Distanza Minima Anelli (km)</th>
+        <th>Distanza Massima Anelli (km)</th>
+        <th>Velocità Orbitale Bordo Interno (km/s)</th>
+        <th>Velocità Orbitale Bordo Esterno (km/s)</th>
+        <th>Velocità Media (km/s)</th> 
+    </tr>
+    <tr>
+        <td>Nettuno</td>
+        <td>1.024 × 10^26</td>
+        <td>41,900(Anello Galle)</td>
+        <td>62,900(Anello Fraternité)</td>
+        <td>~0.49</td>
+        <td>~0.41</td>
+        <td>~0.45</td> 
+    </tr>
+    <tr>
+        <td>Urano</td>
+        <td>8.681 × 10^25</td>
+        <td>38,000(Zeta)</td>
+        <td>51,140(Epsilon)</td>
+        <td>~0.91</td>
+        <td>~0.81</td>
+        <td>~0.86</td> 
+    </tr>
+    <tr>
+        <td>Giove</td>
+        <td>1.8982 × 10^27</td>
+        <td>92,000 (Anello di alone)</td>
+        <td>226,000 (Anello Gossamer esterno di Tebe)</td>
+        <td>~0.83 </td>
+        <td>~0.50 </td>
+        <td>~0.67</td> 
+    </tr>
+    <tr>
+        <td>Saturno</td>
+        <td>5.683 × 10^26</td>
+        <td>60,000 (Anello D)</td>
+        <td>173,800 (Anello G)</td>
+        <td>~10.18</td>
+        <td>~7.62</td>
+        <td>~8.90</td>
+    </tr>
+</table>
+
+	<div class="calculation">
+		<h2>Calcoli delle Velocità Orbitali </h2>
+		<p>Formula utilizzata: <strong>v = sqrt(GM/r)</strong> Dove: v (velocità) in m/s, G (costante gravitazionale universale) = 6.674 × 10^-11 Nm^2/kg^2, M (massa) in kg, r (raggio) in m.</p>
+		
+		<h3>Nettuno:</h3>
+		<p>v_interno(Anello Galle): V = sqrt((6.674 × 10^-11 Nm^2/kg^2) × (1.024 × 10^26 kg) / (41,900 km × 10^3 m/km)) ≈ 0.49 km/s</p>
+		<p>v_esterno(Anello Fraternité): V = sqrt((6.674 × 10^-11 Nm^2/kg^2) × (1.024 × 10^26 kg) / (62,900 km × 10^3 m/km)) ≈ 0.41 km/s</p>
+
+		<h3>Urano:</h3>
+		<p>v_interno(Anello Zeta): V = sqrt((6.674 × 10^-11 Nm^2/kg^2) × (8.681 × 10^25 kg) / (38,000 km × 10^3 m/km)) ≈ 0.91 km/s</p>
+		<p>v_esterno(Anello Epsilon): V = sqrt((6.674 × 10^-11 Nm^2/kg^2) × (8.681 × 10^25 kg) / (51,140 km × 10^3 m/km)) ≈ 0.81 km/s</p>
+
+		<h3>Giove:</h3>
+		<p>v_interno(Anello di alone) = sqrt((6.674 × 10^-11 Nm^2/kg^2)×(1.8982 × 10^27 kg) / (92,000 km × 10^3 m/km)) ≈ 0.83 km/s</p>
+		<p>v_esterno(Anello Gossamer esterno di Tebe) = sqrt((6.674 × 10^-11 Nm^2/kg^2)×(1.8982 × 10^27 kg) / (226,000 km × 10^3 m/km)) ≈ 0.50 km/s</p>
+
+		<h3>Saturno:</h3>
+		<p>v_interno(Anello D) = sqrt((6.674 × 10^-11) × (5.683 × 10^26) / (60,000 × 10^3)) ≈ 10.18 km/s</p>
+		<p>v_esterno(Anello G) = sqrt((6.674 × 10^-11) × (5.683 × 10^26) / (173,800 × 10^3)) ≈ 7.62 km/s</p>
+	</div>
+
+    </div>
+</body>
+</html>
